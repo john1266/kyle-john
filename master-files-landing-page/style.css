@@ -1,0 +1,489 @@
+header{
+    background-color:#f7f7ff;
+}
+/*setting the title to the side*/
+.title{
+    float: left;
+    width: 33%;
+}
+
+.title,h1{
+    font-size: 5rem;
+    padding-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color:#f7f7ff
+}
+
+.logo{
+    padding-left: 4rem;
+    text-align: left;
+    position: relative;
+}
+
+.subtitle{
+    text-align: left;
+    position: relative;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+/*setting scooter to middle*/
+.scooter{
+    width: 33%;
+    height:auto;
+}
+/*setting application form to side*/
+.apply{
+    padding: 2rem;
+    background-color: white;
+    width: 25%;
+    float: right;
+    height:auto;
+}
+
+.now{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info{
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apply{
+    background-color: white;
+    width: 25%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif; 
+}
+/*setting the forms input feilds*/
+input{
+    width: 80%;
+    padding: 0.6rem;
+    margin: 0.2rem;
+    background-color:#f7f7ff;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+
+input.submit{
+    width: 90%;
+    background-color: #57eeab;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1rem;
+}
+/* setting footer*/
+.footer{
+    background-color: #fffd8c;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    box-shadow:15px 9px 10px 10px #fffd8c;
+}
+
+.earn{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1rem;
+    
+}
+
+.how{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1rem;
+}
+/*setting the forms for footer*/
+
+.hours{
+    width: 10%;
+    padding-right: 1rem;
+}
+
+.city{
+    width: 20%;
+}
+
+.calc{
+width: 10%;
+}
+.footerinput{
+    display: flex
+}
+
+/*for some reason it has not properly responded to media querys*/
+/*these are the social media querys*/
+
+.social{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-color: #fffd8c;
+    position: absolute;
+    right: 240px;
+    top: 375px;
+}
+
+
+.social2{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-color: #fffd8c;
+    position: absolute;
+    right: 170px;
+    top: 375px;
+}
+
+.social3{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-color: #fffd8c;
+    position: absolute;
+    right: 30px;
+    top: 375px;
+}
+
+.social4{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-color: #fffd8c;
+    position: absolute;
+    right: 100px;
+    top: 375px;
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    
+    
+    header{
+        background-color:#f7f7ff;
+    }
+    /*making title span 100%*/
+    
+    .title{
+        float: left;
+        width: 100%;
+    }
+    
+    .title,h1{
+        font-size: 5rem;
+        padding-bottom: 0px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    body{
+        background-color:#f7f7ff;
+        height: 100%;
+        padding-bottom: 70px;
+
+    }
+    
+    .logo{
+        padding-left: 4rem;
+        text-align: left;
+        position: relative;
+    }
+    
+    .subtitle{
+        text-align: left;
+        position: relative;
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    /* trying to make image span 100*/
+    .scooter{
+        width: 100%;
+        height:auto;
+
+    }
+    
+    .apply{
+        padding: 0rem;
+        background-color: white;
+        width: 100%;
+        height:auto;
+        position: relative;
+    }
+    
+    .now{
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .info{
+        font-size: 1.1rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .apply{
+        background-color: white;
+        width: 80%;
+        right: 15%;
+        left: -5%;
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px black;
+        padding: 2rem;
+        font-family: 'Montserrat', sans-serif; 
+    }
+    /*fixing input to look better*/
+    input{
+        width: 80%;
+        padding: 0.6rem;
+        margin: 0.2rem;
+        background-color:#f7f7ff;
+        border-radius: 10px;
+        font-size: 1rem;
+    }
+    
+    
+    input.submit{
+        width: 100%;
+        background-color: #57eeab;
+        font-family: 'Montserrat', sans-serif; 
+        font-size: 1rem;
+    }
+    
+    .footer{
+        background-color: #fffd8c;
+        margin: 0px;
+        padding: 0px;
+        width: 90%;
+        box-shadow:15px 9px 10px 10px #fffd8c;
+        position: absolute ;
+        top: 1975px;
+        height: 250px;
+    }
+       
+    }
+    
+    .earn{
+        font-family: 'Montserrat', sans-serif; 
+        font-size: 1rem;
+    }
+    
+    .how{
+        font-family: 'Montserrat', sans-serif; 
+        font-size: 1rem;
+    }
+    /*for some reason it has not properly responded to media querys*/
+/*these are the social media querys*/
+
+    .hours{
+        width: 20%;
+        padding-right: 1rem;
+    }
+    
+    .city{
+        width: 30%;
+    }
+    
+    .calc{
+    width: 30%;
+    }
+    .footerinput{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /*social media icons*/
+    .socials{
+        display: flex;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .social{
+           padding-right: 1rem;
+        padding-left: 1rem;
+        top: 210px;
+      
+    }
+    
+    
+    .social2{
+        padding-right: 1rem;
+        padding-left: 1rem;
+        top: 210px;
+       
+      
+    }
+    
+    .social3{
+        padding-right: 1rem;
+        padding-left: 1rem;
+        top: 210px;
+       
+    }
+    
+    .social4{
+        padding-right: 1rem;
+        padding-left: 1rem;
+        top: 210px;
+ }
+
+@media only screen and (max-width: 600px) {
+
+    header{
+        background-color:#f7f7ff;
+    }
+    /*set title scooter and application form to 100%*/
+    .title{
+        float: left;
+        width: 100%;
+    }
+    
+    .title,h1{
+        font-size: 5rem;
+        padding-bottom: 0px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    body{
+        background-color:#f7f7ff;
+        height: 100%;
+        padding-bottom: 70px;
+
+    }
+    
+    .logo{
+        padding-left: 4rem;
+        text-align: left;
+        position: relative;
+    }
+    
+    .subtitle{
+        text-align: left;
+        position: relative;
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .scooter{
+        max-width: 100%;
+        height:auto;
+    }
+    
+    .apply{
+        padding: 0rem;
+        background-color: white;
+        width: 100%;
+        height:auto;
+        position: relative;
+    }
+    
+    .now{
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .info{
+        font-size: 1.1rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    /* trying to center input and application*/
+    .apply{
+        background-color: white;
+        width: 80%;
+        right: 15%;
+        left: -5%;
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px black;
+        padding: 2rem;
+        font-family: 'Montserrat', sans-serif; 
+    }
+    
+    input{
+        width: 80%;
+        padding: 0.6rem;
+        margin: 0.2rem;
+        background-color:#f7f7ff;
+        border-radius: 10px;
+        font-size: 1rem;
+    }
+    
+    
+    input.submit{
+        width: 100%;
+        background-color: #57eeab;
+        font-family: 'Montserrat', sans-serif; 
+        font-size: 1rem;
+    }
+    /* this footer has responded to the media query*/
+    .footer{
+        background-color: #fffd8c;
+        margin: 0px;
+        padding: 0px;
+        width: 90%;
+        box-shadow:15px 9px 10px 10px #fffd8c;
+        position: absolute ;
+        top: 1975px;
+        height: 250px;
+    }
+       
+    }
+    
+    .earn{
+        font-family: 'Montserrat', sans-serif; 
+        font-size: 1rem;
+    }
+    
+    .how{
+        font-family: 'Montserrat', sans-serif; 
+        font-size: 1rem;
+    }
+    
+    .hours{
+        width: 20%;
+        padding-right: 1rem;
+    }
+    
+    .city{
+        width: 70%;
+    }
+    
+    .calc{
+    width: 100%;
+    }
+    .footerinput{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /*these also responded to media query*/
+    
+    .socials{
+        display: flex;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .social{
+           padding-right: 1rem;
+        padding-left: 1rem;
+        top: 210px;
+      
+    }
+    
+    
+    .social2{
+        padding-right: 1rem;
+        padding-left: 1rem;
+        top: 210px;
+       
+      
+    }
+    
+    .social3{
+        padding-right: 1rem;
+        padding-left: 1rem;
+        top: 210px;
+       
+    }
+    
+    .social4{
+        padding-right: 1rem;
+        padding-left: 1rem;
+        top: 210px;
+       
+}
+
